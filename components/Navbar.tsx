@@ -31,11 +31,11 @@ function Navbar() {
           {navItems.map((item, index) => (
             <li
               key={index}
-              className={`p-1 hover:bg-gray-600 md:hover:bg-transparent ${
+              className={`p-1 px-2 hover:bg-gray-600 rounded-md md:hover:bg-transparent ${
                 pathname === item.path ? "font-extrabold" : ""
               }`}
             >
-              <Link href={item.path} className="hover:text-blue-500">
+              <Link href={item.path} className="md:hover:text-blue-600">
                 {item.label}
               </Link>
             </li>

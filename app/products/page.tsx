@@ -1,10 +1,18 @@
-import { Footer, Navbar, ProductHero } from "@/components";
+import {
+  Footer,
+  Navbar,
+  ProductHero,
+  ProductList,
+  Testimonials,
+} from "@/components";
 
 function page() {
   return (
     <div>
       <Navbar />
       <ProductHero />
+      <ProductList />
+      <Testimonials />
       <Footer />
     </div>
   );

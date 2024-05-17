@@ -1,5 +1,5 @@
 import gGpu1 from "../public/ggpu1.png";
-import gGpu2 from "../public/ggpu1.png";
+import gGpu2 from "../public/ggpu2.png";
 import gGpu3 from "../public/ggpu3.png";
 import gGpu4 from "../public/ggpu4.png";
 import gGpu5 from "../public/ggpu5.png";
@@ -89,4 +89,4 @@ const dataCenterGPUs = [
   },
 ];
 
-export { gamingGPUs, professionalGPUs, dataCenterGPUs };
+export default { gamingGPUs, professionalGPUs, dataCenterGPUs };

@@ -14,3 +14,4 @@ export { default as AboutVisionMission } from "./About/AboutVisionMission";
 export { default as AboutStatistics } from "./About/AboutStatistics";
 
 export { default as ProductHero } from "./Products/ProductHero";
+export { default as ProductList } from "./Products/ProductList";

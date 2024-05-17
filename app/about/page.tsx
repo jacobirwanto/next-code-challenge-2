@@ -1,6 +1,7 @@
 import {
   AboutHero,
   AboutHistory,
+  AboutStatistics,
   AboutVisionMission,
   Footer,
   Navbar,
@@ -14,6 +15,8 @@ function page() {
       <AboutHero />
       <AboutHistory />
       <AboutVisionMission />
+      <OurTeam />
+      <AboutStatistics />
       <Footer />
     </div>
   );

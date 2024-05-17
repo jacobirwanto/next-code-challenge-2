@@ -12,3 +12,5 @@ export { default as AboutHero } from "./About/AboutHero";
 export { default as AboutHistory } from "./About/AboutHistory";
 export { default as AboutVisionMission } from "./About/AboutVisionMission";
 export { default as AboutStatistics } from "./About/AboutStatistics";
+
+export { default as ProductHero } from "./Products/ProductHero";

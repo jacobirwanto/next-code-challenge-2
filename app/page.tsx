@@ -1,4 +1,5 @@
 import { Footer, LandingHero, LandingOverview, Navbar } from "@/components";
+import OurTeam from "@/components/OurTeam";
 
 export default function Home() {
   return (
@@ -6,6 +7,7 @@ export default function Home() {
       <Navbar />
       <LandingHero />
       <LandingOverview />
+      <OurTeam />
       <Footer />
     </div>
   );

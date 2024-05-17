@@ -27,9 +27,9 @@ function Overview() {
         </div>
       ))}
 
-      <div className="py-8 px-6 md:px-16 md:py-16 grid grid-cols-1 md:grid-cols-3 gap-4 text-gray-100 bg-gray-950">
+      <div className="py-4 px-6 md:px-16 md:py-16 grid grid-cols-1 md:grid-cols-3 gap-4 text-gray-100 bg-gray-950">
         <div className="col-span-2 md:col-span-2">
-          <h2 className="text-lg md:text-4xl lg:text-7xl font-semibold mb-8">
+          <h2 className="text-lg md:text-4xl lg:text-7xl font-semibold">
             What We Do?
           </h2>
           <Image

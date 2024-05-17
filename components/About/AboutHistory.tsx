@@ -30,7 +30,7 @@ function HistoryAbout() {
       <Image
         src={milestones}
         alt="company-milestones"
-        className="pt-12 md:px-24 md:pt-24 w-full h-auto"
+        className="pt-12 w-full h-auto"
       />
     </div>
   );

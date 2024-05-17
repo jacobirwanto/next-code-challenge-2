@@ -7,7 +7,7 @@ function AboutHero() {
       <div className="relative">
         <div className="absolute inset-0 bg-black opacity-70"></div>
         <div className="absolute inset-0 flex flex-col justify-center items-center px-4 md:px-8 text-white">
-          <h2 className="text-sm md:text-5xl font-bold mb-4 font-maximus">
+          <h2 className="text-sm md:text-4xl lg:text-5xl font-bold mb-4 font-maximus">
             Explore the SNSV Journey
           </h2>
           <p className="text-xs md:text-lg md:mb-4">

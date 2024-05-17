@@ -13,7 +13,7 @@ function Card({ statistic }: { statistic: Statistic }) {
   return (
     <div
       key={statistic.id}
-      className="bg-gray-900 p-6 rounded-lg flex flex-col items-center text-center min-w-[150px] max-w-[200px]"
+      className="bg-gray-900 p-6 rounded-lg flex flex-col items-center text-center min-w-40 max-w-48"
     >
       <IconComponent className="w-12 h-12 mb-4 text-blue-500" />
       <p className="text-xl font-semibold text-gray-100">{statistic.label}</p>
@@ -25,8 +25,8 @@ function Card({ statistic }: { statistic: Statistic }) {
 function Statistics() {
   return (
     <div className="overflow-x-auto bg-gray-950 py-8">
-      <div className="px-8 lg:px-8">
-        <div className="flex flex-nowrap lg:flex-wrap justify-start gap-4 lg:justify-center">
+      <div className="px-8 md:px-8">
+        <div className="flex flex-nowrap md:flex-wrap justify-start gap-4 md:justify-center">
           {statisticsData.map((statistic) => (
             <Card key={statistic.id} statistic={statistic} />
           ))}

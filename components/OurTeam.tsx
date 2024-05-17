@@ -25,7 +25,7 @@ function OurTeam() {
         {mergedTeamMembers.map((member, index) => (
           <div
             key={index}
-            className="flex flex-col items-center p-2 mb-8 md:mr-8"
+            className="flex flex-col items-center p-2 mb-8 md:mx-8"
           >
             <div className="w-20 h-20 md:w-32 md:h-32 rounded-full overflow-hidden">
               <img

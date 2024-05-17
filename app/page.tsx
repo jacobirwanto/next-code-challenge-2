@@ -1,5 +1,11 @@
-import { Footer, LandingHero, LandingOverview, Navbar } from "@/components";
-import OurTeam from "@/components/OurTeam";
+import {
+  Footer,
+  LandingHero,
+  LandingOverview,
+  Navbar,
+  OurTeam,
+  Testimonials,
+} from "@/components";
 
 export default function Home() {
   return (
@@ -8,6 +14,7 @@ export default function Home() {
       <LandingHero />
       <LandingOverview />
       <OurTeam />
+      <Testimonials />
       <Footer />
     </div>
   );

@@ -1,12 +1,11 @@
-import { overviewItems } from "@/utils/overviewItems";
-import { overviewProductItems } from "@/utils/overviewItems";
+import overviewItems from "@/utils/overviewItems";
 import overviewImg4 from "@/public/overviewimg4.jpg";
 import Image from "next/image";
 
 function Overview() {
   return (
     <div className="px-10 md:px-36 py-8 text-gray-300 bg-gray-950">
-      {overviewItems.map((item, index) => (
+      {overviewItems.overviewGrid.map((item, index) => (
         <div
           key={index}
           className={`grid grid-cols-1 gap-4 pb-4 md:pb-0 md:grid-cols-2 ${
@@ -41,7 +40,7 @@ function Overview() {
         </div>
         <div className="col-span-1 md:col-span-1 flex flex-col justify-center">
           <ul className="list-outside pl-4 md:space-y-10 text-sm md:text-lg lg:text-2xl text-gray-300 font-bold">
-            {overviewProductItems.map((item) => (
+            {overviewItems.overviewProductItems.map((item) => (
               <li key={item.id}>{item.title}</li>
             ))}
           </ul>

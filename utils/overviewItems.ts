@@ -2,7 +2,7 @@ import overviewImg1 from "@/public/overviewimg1.jpg";
 import overviewImg2 from "@/public/overviewimg2.jpg";
 import overviewImg3 from "@/public/overviewimg3.jpg";
 
-const overviewItems = [
+const overviewGrid = [
   {
     title: "Rapid Expansion",
     description:
@@ -32,4 +32,4 @@ const overviewProductItems = [
   { id: 3, title: "Industry Partners" },
 ];
 
-export { overviewItems, overviewProductItems };
+export default { overviewGrid, overviewProductItems };

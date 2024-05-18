@@ -1,5 +1,3 @@
-import exp from "constants";
-
 export { default as Navbar } from "./Navbar";
 export { default as Footer } from "./Footer";
 export { default as OurTeam } from "./OurTeam";
@@ -15,3 +13,6 @@ export { default as AboutStatistics } from "./About/AboutStatistics";
 
 export { default as ProductHero } from "./Products/ProductHero";
 export { default as ProductList } from "./Products/ProductList";
+
+export { default as TeamHero } from "./Team/TeamHero";
+export { default as TeamDetail } from "./Team/TeamDetail";

@@ -1,20 +1,9 @@
 "use client";
 
 import useTeam from "../hooks/useTeam";
-import teamMembers from "../utils/teamMembers";
 
 function OurTeam() {
-  const teamMembersFromHook = useTeam();
-  const teamMembersFromUtils = teamMembers.map((member) => ({
-    name: member.name,
-  }));
-
-  const mergedTeamMembers = teamMembersFromHook.map(
-    (memberFromHook, index) => ({
-      ...memberFromHook,
-      name: teamMembersFromUtils[index].name,
-    })
-  );
+  const teamMembers = useTeam();
 
   return (
     <div className="py-8 px-4 md:px-24 text-center text-gray-300 bg-gray-950">
@@ -22,7 +11,7 @@ function OurTeam() {
         Our Team
       </h2>
       <div className="flex flex-wrap justify-center">
-        {mergedTeamMembers.map((member, index) => (
+        {teamMembers.map((member, index) => (
           <div
             key={index}
             className="flex flex-col items-center p-2 mb-8 md:mx-8"
@@ -36,7 +25,7 @@ function OurTeam() {
             </div>
             <div className="mt-2 text-white">
               <p className="text-lg font-semibold">{member.name}</p>
-              <p className="text-sm">{member.role}</p>
+              <p className="text-sm">{member.position}</p>
             </div>
           </div>
         ))}

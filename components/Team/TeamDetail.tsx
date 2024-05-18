@@ -1,6 +1,7 @@
 "use client";
 
 import useTeam from "@/hooks/useTeam";
+import Image from "next/image";
 
 function OurTeamDetails() {
   const teamMembers = useTeam();
@@ -16,10 +17,12 @@ function OurTeamDetails() {
             }`}
           >
             <div className="md:w-1/2">
-              <img
+              <Image
                 className="h-full w-full object-cover object-top md:h-auto md:w-full rounded-lg"
                 src={member.picture}
                 alt={member.name}
+                width={500}
+                height={500}
               />
             </div>
             <div className="p-6 md:p-8 md:w-1/2">

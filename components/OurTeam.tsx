@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import useTeam from "../hooks/useTeam";
 
 function OurTeam() {
@@ -17,9 +18,11 @@ function OurTeam() {
             className="flex flex-col items-center p-2 mb-8 md:mx-8"
           >
             <div className="w-20 h-20 md:w-32 md:h-32 rounded-full overflow-hidden">
-              <img
+              <Image
                 src={member.picture}
                 alt={member.name}
+                width={500}
+                height={500}
                 className="w-full h-full object-cover"
               />
             </div>

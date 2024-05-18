@@ -10,7 +10,7 @@ function ProductHero() {
           #1 Best-Selling GPU
         </h1>
         <p className="text-xs md:text-sm md:mb-4">
-          Discover SNSV's Next-Generation GPU Technology
+          Discover SNSV&lsquo;Next-Generation GPU Technology
         </p>
         <p className="text-[10px] md:text-lg md:mb-4 italic">
           Gaming GPUs | Professional GPUs | Data Center GPUs

@@ -23,7 +23,9 @@ function Card({ testimonial }: { testimonial: Testimonial }) {
           {testimonial.company.name}
         </h3>
       </div>
-      <p className="text-lg italic text-gray-300">"{testimonial.review}"</p>
+      <p className="text-lg italic text-gray-300">
+        &ldquo;{testimonial.review}&ldquo;
+      </p>
     </div>
   );
 }

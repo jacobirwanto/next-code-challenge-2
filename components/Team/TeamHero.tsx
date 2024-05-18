@@ -1,4 +1,4 @@
-import heroImg4 from "@/public/hero4.png";
+import heroImg4 from "@/public/hero4.webp";
 import Image from "next/image";
 
 function TeamHero() {

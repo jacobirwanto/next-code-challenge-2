@@ -1,9 +1,9 @@
-import companyImg1 from "../public/company1.png";
-import companyImg2 from "../public/company2.png";
-import companyImg3 from "../public/company3.png";
-import companyImg4 from "../public/company4.png";
-import companyImg5 from "../public/company5.png";
-import companyImg6 from "../public/company6.png";
+import companyImg1 from "../public/company1.webp";
+import companyImg2 from "../public/company2.webp";
+import companyImg3 from "../public/company3.webp";
+import companyImg4 from "../public/company4.webp";
+import companyImg5 from "../public/company5.webp";
+import companyImg6 from "../public/company6.webp";
 
 const testimonial = [
   {

@@ -1,4 +1,4 @@
-import heroImg2 from "@/public/hero2.png";
+import heroImg2 from "@/public/hero2.webp";
 import Image from "next/image";
 
 function AboutHero() {

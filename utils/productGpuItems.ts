@@ -1,12 +1,12 @@
-import gGpu1 from "../public/ggpu1.png";
-import gGpu2 from "../public/ggpu2.png";
-import gGpu3 from "../public/ggpu3.png";
-import gGpu4 from "../public/ggpu4.png";
-import gGpu5 from "../public/ggpu5.png";
-import gGpu6 from "../public/ggpu6.png";
-import pGpu1 from "../public/pgpu1.png";
-import pGpu2 from "../public/pgpu2.png";
-import dGpu1 from "../public/dgpu1.png";
+import gGpu1 from "../public/ggpu1.webp";
+import gGpu2 from "../public/ggpu2.webp";
+import gGpu3 from "../public/ggpu3.webp";
+import gGpu4 from "../public/ggpu4.webp";
+import gGpu5 from "../public/ggpu5.webp";
+import gGpu6 from "../public/ggpu6.webp";
+import pGpu1 from "../public/pgpu1.webp";
+import pGpu2 from "../public/pgpu2.webp";
+import dGpu1 from "../public/dgpu1.webp";
 
 const gamingGPUs = [
   {

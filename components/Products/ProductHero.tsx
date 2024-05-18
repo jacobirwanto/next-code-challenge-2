@@ -1,4 +1,4 @@
-import heroImg3 from "@/public/hero3.jpg";
+import heroImg3 from "@/public/hero3.webp";
 import Image from "next/image";
 
 function ProductHero() {

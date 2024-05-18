@@ -1,7 +1,7 @@
-import historyImg1 from "../public/historyimg1.png";
-import historyImg2 from "../public/historyimg2.png";
-import historyImg3 from "../public/historyimg3.png";
-import historyImg4 from "../public/historyimg4.png";
+import historyImg1 from "../public/historyimg1.webp";
+import historyImg2 from "../public/historyimg2.webp";
+import historyImg3 from "../public/historyimg3.webp";
+import historyImg4 from "../public/historyimg4.webp";
 
 const historyData = [
   {

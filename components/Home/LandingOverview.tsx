@@ -1,5 +1,5 @@
 import overviewItems from "@/utils/overviewItems";
-import overviewImg4 from "@/public/overviewimg4.jpg";
+import overviewImg4 from "@/public/overviewimg4.webp";
 import Image from "next/image";
 
 function Overview() {
@@ -21,7 +21,9 @@ function Overview() {
           <Image
             src={item.image}
             alt={item.alt}
-            className={`w-auto h-auto ${index === 1 ? "md:order-first" : ""}`}
+            width={500}
+            height={500}
+            className={`w-full h-auto ${index === 1 ? "md:order-first" : ""}`}
           />
         </div>
       ))}
@@ -34,7 +36,9 @@ function Overview() {
           <Image
             src={overviewImg4}
             alt="Product Image"
-            className="w-full h-auto md:w-auto md:h-auto"
+            width={1280}
+            height={950}
+            className="w-full h-auto"
             loading="lazy"
           />
         </div>

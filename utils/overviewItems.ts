@@ -1,6 +1,6 @@
-import overviewImg1 from "@/public/overviewimg1.jpg";
-import overviewImg2 from "@/public/overviewimg2.jpg";
-import overviewImg3 from "@/public/overviewimg3.jpg";
+import overviewImg1 from "@/public/overviewimg1.webp";
+import overviewImg2 from "@/public/overviewimg2.webp";
+import overviewImg3 from "@/public/overviewimg3.webp";
 
 const overviewGrid = [
   {

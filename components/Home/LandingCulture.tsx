@@ -19,9 +19,9 @@ function LandingCulture() {
           <div className="mt-4 md:mt-0 md:w-1/3 flex justify-center md:justify-end">
             <Link
               href="/about"
-              className="font-semibold rounded-lg bg-blue-600 py-4 px-9 hover:bg-blue-700 text-white"
+              className="btn-anim font-semibold rounded-lg bg-blue-600 py-4 px-9 hover:bg-blue-700 text-white"
             >
-              Read More
+              About Us
             </Link>
           </div>
         </div>

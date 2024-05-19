@@ -5,6 +5,7 @@ export { default as Testimonials } from "./Testimonials";
 
 export { default as LandingHero } from "./Home/LandingHero";
 export { default as LandingOverview } from "./Home/LandingOverview";
+export { default as LandingCulture } from "./Home/LandingCulture";
 
 export { default as AboutHero } from "./About/AboutHero";
 export { default as AboutHistory } from "./About/AboutHistory";

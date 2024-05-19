@@ -1,5 +1,6 @@
 import {
   Footer,
+  LandingCulture,
   LandingHero,
   LandingOverview,
   Navbar,
@@ -14,6 +15,7 @@ export default function Home() {
       <LandingHero />
       <LandingOverview />
       <OurTeam />
+      <LandingCulture />
       <Testimonials />
       <Footer />
     </div>

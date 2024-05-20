@@ -14,7 +14,7 @@ const teamMembers = [
       "Holding a degree in Business Administration from Harvard University, leads SNSV with over two decades of executive leadership experience. As CEO, his visionary guidance has propelled SNSV to unparalleled success in the tech industry, earning him the esteemed title of Tech Innovator of the Year. His groundbreaking initiatives in sustainable technology have not only revolutionized the industry but have also earned him recognition from the United Nations as a Sustainable Development Advocate.",
   },
   {
-    name: "Yu Ho",
+    name: "Wei Tu Yung",
     position: "CTO",
     positionAbb: "Chief Technology Officer",
     image: profile2,
@@ -38,7 +38,7 @@ const teamMembers = [
       "Orchestrates SNSV's marketing symphony. With a decade of disruptive campaigns under his belt, he's a Marketing Excellence Award laureate. Moe's digital prowess landed him on Forbes' radar as one of the Top Digital Mavericks, making waves in the marketing universe.",
   },
   {
-    name: "F. You",
+    name: "Sum Ting Wong",
     position: "CFO",
     positionAbb: "Chief Financial Officer",
     image: profile5,

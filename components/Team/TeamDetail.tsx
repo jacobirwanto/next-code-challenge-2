@@ -29,8 +29,10 @@ function OurTeamDetails() {
               <h2 className="text-2xl md:text-3xl font-bold text-blue-500">
                 {member.name}
               </h2>
-              <p className="text-gray-300 font-light mb-4 md:mb-6">
-                {member.location}
+              <p className="text-gray-300 font-light">{member.location}</p>
+              <p className="text-gray-300 font-extralight">{member.phone}</p>
+              <p className="text-gray-300 font-extralight mb-6 md:mb-8">
+                {member.email}
               </p>
               <p className="text-gray-300 font-extrabold italic text-lg md:text-2xl lg:text-4xl">
                 {member.position}

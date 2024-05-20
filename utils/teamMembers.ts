@@ -35,7 +35,7 @@ const teamMembers = [
     positionAbb: "Chief Marketing Officer",
     image: profile4,
     description:
-      "Orchestrates SNSV's marketing symphony. With a decade of disruptive campaigns under his belt, he's a Marketing Excellence Award laureate. Moe's digital prowess landed him on Forbes' radar as one of the Top Digital Mavericks, making waves in the marketing universe.",
+      "Orchestrates SNSV's marketing symphony. With a decade of disruptive campaigns under his belt, he's a Marketing Excellence Award laureate. Kim's digital prowess landed him on Forbes' radar as one of the Top Digital Mavericks, making waves in the marketing universe.",
   },
   {
     name: "Sum Ting Wong",

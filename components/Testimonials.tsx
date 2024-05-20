@@ -12,7 +12,7 @@ interface Testimonial {
 
 function Card({ testimonial }: { testimonial: Testimonial }) {
   return (
-    <div className="bg-gray-900 p-6 rounded-lg flex flex-col w-full h-full">
+    <div className="bg-gray-900 p-6 rounded-lg flex-shrink-0 w-80 md:w-auto">
       <div className="flex items-center mb-4">
         <Image
           src={testimonial.company.logo}
@@ -23,8 +23,8 @@ function Card({ testimonial }: { testimonial: Testimonial }) {
           {testimonial.company.name}
         </h3>
       </div>
-      <p className="text-lg italic text-gray-300 flex-grow">
-        &ldquo;{testimonial.review}&rdquo;
+      <p className="text-lg italic text-gray-300">
+        &ldquo;{testimonial.review}&ldquo;
       </p>
     </div>
   );
@@ -37,7 +37,7 @@ function Testimonials() {
         What they say about SNSV?
       </h2>
       <div className="overflow-x-auto">
-        <div className="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+        <div className="flex lg:grid lg:grid-cols-3 gap-6">
           {testimonialItems.map((testimonial) => (
             <Card key={testimonial.id} testimonial={testimonial} />
           ))}
